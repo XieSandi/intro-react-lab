@@ -34,6 +34,7 @@ class App extends React.Component {
   }
 
   /*Write an addStudent method here*/
+  addStudent;
 
   addGrade(assignment, student, score) {
     let grades = this.state.grades;
